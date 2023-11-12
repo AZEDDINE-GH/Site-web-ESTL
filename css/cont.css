@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+		margin:0;
+		padding:0;
+		outline:none;
+		box-sizing:border-box;
+}
+body{
+	background-image: url("../image/bct.png");
+	background-repeat:no-repeat;
+	background-position:top center;
+	width:100%;
+	height:150vh;
+	background-size: cover;
+	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+}
+#social{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	/*border:2px solid #ffc107;*/
+	
+}
+#social img{
+	width:120px;
+	height:100px;
+}
+.wrapper{
+	position:absolute;
+	background-position:center center;
+	margin-left:30%;
+	
+	/*top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);*/
+}
+.contact{
+	width:100%;
+	max-width:500px;
+	height:auto;
+	background: rgba(0,0,0,0.4);
+	padding:40px 50px;
+	border-radius:5px;
+}
+.title{
+	font-size: 2em;
+	line-height:1.25em;
+	text-align:center;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing:2px;
+	color:#ffc107;
+	padding-bottom:5px;
+	margin-bottom:8px;
+	border-bottom:3px double #ffc107;
+}
+.input-fields{
+	padding:0 30px;
+}
+.input-fields .items{
+	width:100%;
+	padding-bottom: 15px;
+}
+.input-fields .items .label{
+	display: block;
+	font-size:1em;
+	color:#ffecb3;
+	text-transform: capitalize;
+	padding-bottom:5px; 
+}
+.input-fields .items .input, .input-fields .items .text-area{
+	background: transparent;
+	border:0;
+	border:1px solid #ffecb3;
+	width:100%;
+	padding:8px 10px;
+	font-size:1em;
+	color:#ffecb3;
+	border-radius:3px;
+}
+.btn{
+	margin:0 30px;
+	background-color:#ffc107;
+	color:white;
+	font-size:1.25em;
+	padding:10px 0;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;
+	border-radius:5px;
+	cursor:pointer;
+	letter-spacing:2px;
+}
+.items #msg{
+	height: 100px;
+}
